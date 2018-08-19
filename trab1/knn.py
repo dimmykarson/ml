@@ -1,0 +1,224 @@
+
+import csv, operator, gensim, sys, random, time, math, gc
+import numpy as np
+import pandas as pd
+from scipy.spatial.distance import cosine, euclidean
+from functools import wraps
+len_leaf = 1000
+len_train = 10000
+PROF_DATA = {}
+
+
+
+def profile(fn):
+    @wraps(fn)
+    def with_profiling(*args, **kwargs):
+        start_time = time.time()
+        ret = fn(*args, **kwargs)
+        elapsed_time = time.time() - start_time
+        if fn.__name__ not in PROF_DATA:
+            PROF_DATA[fn.__name__] = [0, []]
+        PROF_DATA[fn.__name__][0] += 1
+        PROF_DATA[fn.__name__][1].append(elapsed_time)
+        return ret
+    return with_profiling
+
+def print_prof_data():
+    for fname, data in PROF_DATA.items():
+        max_time = max(data[1])
+        avg_time = sum(data[1]) / len(data[1])
+        print "Function %s called %d times. " % (fname, data[0]),
+        print 'Execution time max: %.3f, average: %.3f' % (max_time, avg_time)
+def clear_prof_data():
+    global PROF_DATA
+    PROF_DATA = {}
+
+class Tree:
+    def __init__(self, data=None, parent=None, left=None, right=None, i_s=None, lenght=None):
+        self.parent = parent
+        self.left = left
+        self.right = right
+        self.data = None
+        if not lenght:
+            lenght = len(data[0][4])
+        if not i_s:
+            i_s = range(0, lenght)
+        self.mount(data, i_s)
+
+    def mount(self, data, i_s=None):
+        if len(data)<len_leaf:
+            self.data = data
+            return
+        i = random.choice(i_s)
+        z = [x[4][i] for x in data]
+        serie = pd.Series(z)
+        mediana = serie.median()
+        self.mediane = mediana
+        self.index = i
+        i_s.remove(i)
+        a = [x for x in data if x[4][i] <= mediana]
+        b = [x for x in data if x[4][i] > mediana]
+
+        self.left = Tree(data=a, parent=self, i_s=i_s[:])
+        self.right = Tree(data=b, parent=self, i_s=i_s[:])
+
+@profile
+def load_data(filename, length=-1):
+    data = []
+    sentences = []
+    with open(filename, 'rb') as csvfile:
+        lines = csv.reader(csvfile)
+        for row in lines:
+            z = [x.replace(",", "").replace(".", "").replace("\"", "") for x in row[2].split() if len(x)>2]
+            sentences.append(z)
+            data.append([row[0], row[1], row[2], row[3], z])
+            if length>0 and len(data) > length:
+                break
+        csvfile.close()
+
+    model = gensim.models.Word2Vec(sentences, min_count=1)
+    for d in data:
+        target = []
+        for p in d[4]:
+            v = model[p]
+            target.append(v)
+        median_vector = np.median(target, axis=0)
+        np.median(target, axis=0, out=median_vector)
+        d[4] = median_vector
+    model = None
+    return data
+
+@profile
+def get_tree(data):
+    return Tree(data)
+
+@profile
+def calculo_similaridade(a, b, type="euclidean"):
+    if len(a)!=len(b):
+        raise Exception("Representacoes com tamanhos diferentes")
+    if type == 'euclidean':
+        return distancia_euclideana(a, b)
+    elif type == 'manhathan':
+        return distancia_manhathan(a, b)
+    elif type == 'cosine':
+        return distancia_cosseno(a, b)
+
+def distancia_euclideana(a, b):
+	return euclidean(a, b)
+
+def distancia_manhathan(a, b):
+    distance = 0
+    for x in range(len(a)):
+        distance+= math.fabs(a[x]-b[x])
+    return distance
+
+def distancia_cosseno(a, b):
+    return cosine(a, b)
+
+@profile
+def vizinhos(tree, test, k, type ="euclidean"):
+    distancias = []
+    train = get_conjunto(tree, test)
+    for x in range(len(train)):
+		dist = calculo_similaridade(test[4], train[x][4], type)
+		distancias.append((train[x], dist))
+    distancias.sort(key=lambda x: x[1])
+    return [x[0] for x in distancias[:k]]
+
+@profile
+def votacao(vizinhos):
+    classes_votadas = {}
+    classes_votadas["pos"] = 0
+    classes_votadas["neg"] = 0
+    for vizinho in vizinhos:
+        classe = vizinho[3]
+        if classe=="pos":
+            classes_votadas["pos"] += 1
+        else:
+            classes_votadas["neg"] += 1
+    votacao = sorted(classes_votadas.iteritems(), key=operator.itemgetter(1), reverse=True)
+    return votacao[0][0]
+
+@profile
+def precisao(test, predicoes):
+    correto = 0
+    mconfusao = {}
+    mconfusao["VP"] = 0
+    mconfusao["VN"] = 0
+    mconfusao["FP"] = 0
+    mconfusao["FN"] = 0
+    for i in range(len(test)):
+        if test[i][3]=="pos" and predicoes[i]=="pos":
+            mconfusao["VP"] +=1
+        if test[i][3]=="neg" and predicoes[i]=="neg":
+            mconfusao["VN"] += 1
+        if test[i][3] == "neg" and predicoes[i] == "pos":
+            mconfusao["FP"] += 1
+        if test[i][3] == "pos" and predicoes[i] == "neg":
+            mconfusao["FN"] += 1
+    n = mconfusao["VP"] + mconfusao["FP"] + mconfusao["VN"] + mconfusao["FN"]
+    taxa_erro_positiva = 0
+    taxa_erro_negativa = 0
+    taxa_erro_total = 0
+    confiabilidade_positiva = 0
+    confiabilidade_negativa = 0
+    try:
+        confiabilidade_positiva = mconfusao["VP"]/(mconfusao["VP"]+mconfusao["FP"])
+        confiabilidade_negativa = mconfusao["VN"] / (mconfusao["VN"] + mconfusao["FN"])
+        taxa_erro_positiva = mconfusao["FN"]/(mconfusao["VP"]+mconfusao["FN"])
+        taxa_erro_negativa = mconfusao["FP"] / (mconfusao["FP"] + mconfusao["VN"])
+        taxa_erro_total = (mconfusao["FP"]+mconfusao["FN"])/n
+    except:
+        pass
+    acuracia = (mconfusao["VP"]+mconfusao["VN"])/n
+    return acuracia, mconfusao, taxa_erro_positiva, taxa_erro_negativa, taxa_erro_total, confiabilidade_positiva, confiabilidade_negativa
+
+def print_matrix(matrix):
+    p = np.matrix(matrix)
+    print p
+
+@profile
+def get_conjunto(tree, test):
+    if tree.data:
+        return tree.data
+    else:
+        v = test[4][tree.index]
+        if v <= tree.mediane:
+            return get_conjunto(tree.left, test)
+        else:
+            return get_conjunto(tree.right, test)
+    return None
+
+@profile
+def main(train, test, k):
+    print "Carregando dados de treinamento"
+    train = load_data(train, length=len_train)
+    print "Tamanho do treinamento: {0}".format(len(train))
+    print "Montando arvore"
+    root = get_tree(train)
+    print "Carregando dados de Teste"
+    test = load_data(test, length=len_train)
+    print "Tamanho do teste: {0}".format(len(test))
+    distance_type = 'euclidean'
+    print "Treinamento... k={0}, distancia: {1}".format(k, distance_type)
+    preds = []
+    i = 0
+    for t in test:
+        i += 1
+        nn = vizinhos(root, t, k, type)
+        resultado_votacao = votacao(nn)
+        preds.append(resultado_votacao)
+    scores = precisao(test, preds)
+    print "Precisao: {0}%".format(scores[0])
+    print "Matrix\n%"
+    print_matrix(scores[1])
+
+
+
+
+def run():
+    main("train.csv", "validation.csv", 3)
+    print_prof_data()
+
+
+run()
