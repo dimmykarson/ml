@@ -1,7 +1,4 @@
-*.idea/
+trab1/.idea
 trab1/imdb_master.csv
 trab1/reviews_data.txt
-trab1/test1.csv
-trab1/test2.csv
-trab1/train.csv
-trab1/validation.csv
+
