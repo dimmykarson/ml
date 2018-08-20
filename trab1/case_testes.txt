@@ -1,0 +1,23 @@
+Teste 1=====
+
+Tamanho do treinamento: 25000
+Montando arvore
+Carregando dados de Teste
+Tamanho do teste: 25000
+Treinamento... k=3, distancia: euclidean
+Precisao: 0.56244%
+Matrix
+	|	P		|	N		|
+P	|	2625	|	9875	|
+N	|	1064	|	11436	|
+
+Function get_tree called 1 times.  Execution time max: 1.348, average: 1.348
+Function votacao called 25000 times.  Execution time max: 0.002, average: 0.000
+Function load_data called 2 times.  Execution time max: 200.544, average: 195.363
+Function precisao called 1 times.  Execution time max: 15.126, average: 15.126
+Function get_conjunto called 167830 times.  Execution time max: 0.005, average: 0.000
+Function vizinhos called 25000 times.  Execution time max: 0.148, average: 0.028
+Function main called 1 times.  Execution time max: 1097.665, average: 1097.665
+Function calculo_similaridade called 8671038 times.  Execution time max: 0.044, average: 0.000
+
+

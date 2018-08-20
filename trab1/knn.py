@@ -1,11 +1,19 @@
 
 import csv, operator, gensim, sys, random, time, math, gc
+from random import shuffle
 import numpy as np
 import pandas as pd
-from scipy.spatial.distance import cosine, euclidean
+import scipy as sp
+from scipy.spatial.distance import cosine, euclidean, cityblock, mahalanobis
 from functools import wraps
-len_leaf = 1000
-len_train = 10000
+
+import warnings
+warnings.filterwarnings("ignore")
+np.warnings.filterwarnings("ignore")
+
+
+len_leaf = 500
+len_train = 25000
 PROF_DATA = {}
 
 
@@ -86,6 +94,7 @@ def load_data(filename, length=-1):
         np.median(target, axis=0, out=median_vector)
         d[4] = median_vector
     model = None
+    shuffle(data)
     return data
 
 @profile
@@ -98,22 +107,30 @@ def calculo_similaridade(a, b, type="euclidean"):
         raise Exception("Representacoes com tamanhos diferentes")
     if type == 'euclidean':
         return distancia_euclideana(a, b)
-    elif type == 'manhathan':
-        return distancia_manhathan(a, b)
+    elif type == 'manhattan':
+        return distancia_manhattan(a, b)
     elif type == 'cosine':
         return distancia_cosseno(a, b)
+    elif type == 'mahalanobis':
+        return distancia_mahalanobis(a, b)
 
 def distancia_euclideana(a, b):
 	return euclidean(a, b)
 
-def distancia_manhathan(a, b):
-    distance = 0
-    for x in range(len(a)):
-        distance+= math.fabs(a[x]-b[x])
-    return distance
+def distancia_manhattan(a, b):
+    return cityblock(a, b)
 
 def distancia_cosseno(a, b):
     return cosine(a, b)
+
+def distancia_mahalanobis(a, b):
+    d = {}
+    d["a"] = a
+    d["b"] = b
+    df = pd.DataFrame(d)
+    covmx = df.cov()
+    invcovmx = sp.linalg.inv(covmx)
+    return mahalanobis(a, b, invcovmx)
 
 @profile
 def vizinhos(tree, test, k, type ="euclidean"):
@@ -163,19 +180,20 @@ def precisao(test, predicoes):
     confiabilidade_positiva = 0
     confiabilidade_negativa = 0
     try:
-        confiabilidade_positiva = mconfusao["VP"]/(mconfusao["VP"]+mconfusao["FP"])
-        confiabilidade_negativa = mconfusao["VN"] / (mconfusao["VN"] + mconfusao["FN"])
-        taxa_erro_positiva = mconfusao["FN"]/(mconfusao["VP"]+mconfusao["FN"])
-        taxa_erro_negativa = mconfusao["FP"] / (mconfusao["FP"] + mconfusao["VN"])
-        taxa_erro_total = (mconfusao["FP"]+mconfusao["FN"])/n
+        confiabilidade_positiva = float(mconfusao["VP"])/(float(mconfusao["VP"])+float(mconfusao["FP"]))
+        confiabilidade_negativa = float(mconfusao["VN"]) / (float(mconfusao["VN"]) + float(mconfusao["FN"]))
+        taxa_erro_positiva = float(mconfusao["FN"])/(float(mconfusao["VP"])+float(mconfusao["FN"]))
+        taxa_erro_negativa = float(mconfusao["FP"]) / (float(mconfusao["FP"]) + float(mconfusao["VN"]))
+        taxa_erro_total = (float(mconfusao["FP"])+float(mconfusao["FN"]))/n
     except:
         pass
-    acuracia = (mconfusao["VP"]+mconfusao["VN"])/n
+    acuracia = (float(mconfusao["VP"])+float(mconfusao["VN"]))/float(n)
     return acuracia, mconfusao, taxa_erro_positiva, taxa_erro_negativa, taxa_erro_total, confiabilidade_positiva, confiabilidade_negativa
 
 def print_matrix(matrix):
-    p = np.matrix(matrix)
-    print p
+    print "\t|\tP\t\t|\tN\t\t|\n" \
+          "P\t|\t{0}\t|\t{1}\t|\n" \
+          "N\t|\t{2}\t|\t{3}\t|\n".format(matrix["VP"], matrix["FN"], matrix["FP"], matrix["VN"])
 
 @profile
 def get_conjunto(tree, test):
@@ -190,7 +208,7 @@ def get_conjunto(tree, test):
     return None
 
 @profile
-def main(train, test, k):
+def main(train, test, k, distance_type="euclidean"):
     print "Carregando dados de treinamento"
     train = load_data(train, length=len_train)
     print "Tamanho do treinamento: {0}".format(len(train))
@@ -199,26 +217,49 @@ def main(train, test, k):
     print "Carregando dados de Teste"
     test = load_data(test, length=len_train)
     print "Tamanho do teste: {0}".format(len(test))
-    distance_type = 'euclidean'
     print "Treinamento... k={0}, distancia: {1}".format(k, distance_type)
     preds = []
     i = 0
     for t in test:
         i += 1
-        nn = vizinhos(root, t, k, type)
+        nn = vizinhos(root, t, k, distance_type)
         resultado_votacao = votacao(nn)
         preds.append(resultado_votacao)
     scores = precisao(test, preds)
     print "Precisao: {0}%".format(scores[0])
-    print "Matrix\n%"
+    print "Matrix"
     print_matrix(scores[1])
 
 
-
+def test():
+    train = load_data("train.csv", length=len_train)
+    test = load_data("validation.csv", length=len_train)
+    root = get_tree(train)
+    t = random.choice(test)
+    nn = vizinhos(root, t, 3, "manhattan")
+    print_prof_data()
 
 def run():
     main("train.csv", "validation.csv", 3)
     print_prof_data()
 
-
-run()
+train = load_data("train.csv", length=len_train)
+print "Tamanho do treinamento: {0}".format(len(train))
+print "Montando arvore"
+root = get_tree(train)
+print "Carregando dados de Teste"
+test = load_data("validation.csv", length=len_train)
+for k in range(3, 21, 3):
+    for distance_type  in ['euclidean', 'manhattan', 'cosine']:
+        print "Treinamento... k={0}, distancia: {1}".format(k, distance_type)
+        preds = []
+        i = 0
+        for t in test:
+            i += 1
+            nn = vizinhos(root, t, k, distance_type)
+            resultado_votacao = votacao(nn)
+            preds.append(resultado_votacao)
+        scores = precisao(test, preds)
+        print "Precisao: {0}%".format(scores[0])
+        print "Matrix"
+        print_matrix(scores[1])
