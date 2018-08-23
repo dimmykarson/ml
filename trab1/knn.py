@@ -12,7 +12,7 @@ warnings.filterwarnings("ignore")
 np.warnings.filterwarnings("ignore")
 
 
-len_leaf = 500
+len_leaf = 1000
 len_train = 25000
 PROF_DATA = {}
 
@@ -83,8 +83,8 @@ def load_data(filename, length=-1):
             if length>0 and len(data) > length:
                 break
         csvfile.close()
-
-    model = gensim.models.Word2Vec(sentences, min_count=1)
+    random.shuffle(sentences)
+    model = gensim.models.Word2Vec(sentences, min_count=1, size=300)
     for d in data:
         target = []
         for p in d[4]:
@@ -93,13 +93,20 @@ def load_data(filename, length=-1):
         median_vector = np.median(target, axis=0)
         np.median(target, axis=0, out=median_vector)
         d[4] = median_vector
-    model = None
-    shuffle(data)
+
+    #normalize
+    n = [x[4] for x in data]
+    n = np.array(n)
+    n_normed = n / n.max()
+    for i in range(len(n_normed)):
+        data[i][4] = n_normed[i]
     return data
+
 
 @profile
 def get_tree(data):
     return Tree(data)
+
 
 @profile
 def calculo_similaridade(a, b, type="euclidean"):
@@ -113,6 +120,7 @@ def calculo_similaridade(a, b, type="euclidean"):
         return distancia_cosseno(a, b)
     elif type == 'mahalanobis':
         return distancia_mahalanobis(a, b)
+
 
 def distancia_euclideana(a, b):
 	return euclidean(a, b)
@@ -165,9 +173,9 @@ def precisao(test, predicoes):
     mconfusao["FP"] = 0
     mconfusao["FN"] = 0
     for i in range(len(test)):
-        if test[i][3]=="pos" and predicoes[i]=="pos":
+        if test[i][3]=="pos" and predicoes[i] == "pos":
             mconfusao["VP"] +=1
-        if test[i][3]=="neg" and predicoes[i]=="neg":
+        if test[i][3]=="neg" and predicoes[i] == "neg":
             mconfusao["VN"] += 1
         if test[i][3] == "neg" and predicoes[i] == "pos":
             mconfusao["FP"] += 1
@@ -236,13 +244,16 @@ def test():
     test = load_data("validation.csv", length=len_train)
     root = get_tree(train)
     t = random.choice(test)
-    nn = vizinhos(root, t, 3, "manhattan")
+    nn = vizinhos(root, t, 20, "euclidean")
     print_prof_data()
 
 def run():
-    main("train.csv", "validation.csv", 3)
+    main("train.csv", "validation.csv", 30)
     print_prof_data()
 
+run()
+
+'''
 train = load_data("train.csv", length=len_train)
 print "Tamanho do treinamento: {0}".format(len(train))
 print "Montando arvore"
@@ -263,3 +274,4 @@ for k in range(3, 21, 3):
         print "Precisao: {0}%".format(scores[0])
         print "Matrix"
         print_matrix(scores[1])
+'''
