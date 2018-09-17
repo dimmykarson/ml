@@ -238,40 +238,48 @@ def main(train, test, k, distance_type="euclidean"):
     print "Matrix"
     print_matrix(scores[1])
 
-
-def test():
-    train = load_data("train.csv", length=len_train)
-    test = load_data("validation.csv", length=len_train)
-    root = get_tree(train)
-    t = random.choice(test)
-    nn = vizinhos(root, t, 20, "euclidean")
-    print_prof_data()
-
 def run():
-    main("train.csv", "validation.csv", 30)
+    main("train.csv", "validation.csv", 20, distance_type="cosine")
     print_prof_data()
 
-run()
+def teste():
+    ks = [3, 5, 10, 20, 30]
+    distancias = [
+        # "euclidean",
+        "manhattan",
+        "cosine",
+    ]
+    print "Carregando dados de teste"
+    train = load_data("train.csv", length=len_train)
+    root = get_tree(train)
+    test = load_data("validation.csv", length=len_train)
+    resultado = open("resultado.txt", "w")
+    print "Vamos comecar"
+    for dist in distancias:
+        for k in ks:
+            print "Treinamento... k={0}, distancia: {1}".format(k, dist)
+            preds = []
+            i = 0
+            for t in test:
+                i += 1
+                nn = vizinhos(root, t, k, dist)
+                resultado_votacao = votacao(nn)
+                preds.append(resultado_votacao)
+            scores = precisao(test, preds)
+            resultado.write("====== k = {0}, distancia: {1}\n".format(k, dist))
+            resultado.write("Precisao: {0}\n".format(scores[0]))
+            resultado.write("\t|\tP\t\t|\tN\t\t|\n" \
+                            "P\t|\t{0}\t|\t{1}\t|\n" \
+                            "N\t|\t{2}\t|\t{3}\t|\n".format(scores[1]["VP"], scores[1]["FN"], scores[1]["FP"], scores[1]["VN"]))
+            resultado.write("\n\n")
+            print "Precisao: {0}%".format(scores[0])
+            print "Matrix"
+            print_matrix(scores[1])
 
-'''
-train = load_data("train.csv", length=len_train)
-print "Tamanho do treinamento: {0}".format(len(train))
-print "Montando arvore"
-root = get_tree(train)
-print "Carregando dados de Teste"
-test = load_data("validation.csv", length=len_train)
-for k in range(3, 21, 3):
-    for distance_type  in ['euclidean', 'manhattan', 'cosine']:
-        print "Treinamento... k={0}, distancia: {1}".format(k, distance_type)
-        preds = []
-        i = 0
-        for t in test:
-            i += 1
-            nn = vizinhos(root, t, k, distance_type)
-            resultado_votacao = votacao(nn)
-            preds.append(resultado_votacao)
-        scores = precisao(test, preds)
-        print "Precisao: {0}%".format(scores[0])
-        print "Matrix"
-        print_matrix(scores[1])
-'''
+
+
+
+if __name__ == "__main__":
+        if len(sys.argv) != 4:
+                sys.exit("Erro nos parametros")
+        main(sys.argv[1], sys.argv[2], sys.argv[3])

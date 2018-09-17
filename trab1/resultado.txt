@@ -1,0 +1,7 @@
+====== k = 3, distancia: manhattan
+Precisao: 0.5874
+	|	P		|	N		|
+P	|	4849	|	7651	|
+N	|	2664	|	9836	|
+
+
