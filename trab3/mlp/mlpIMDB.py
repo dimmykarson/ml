@@ -48,6 +48,12 @@ print (score)
 y_pred = model.predict_classes(X_test)
 cm = confusion_matrix(label, y_pred)
 print (cm)
+from matrix import plot_confusion_matrix
+
+plot_confusion_matrix(cm           = cm, 
+                      normalize    = True,
+                      target_names = ['high', 'medium', 'low'],
+                      title        = "Confusion Matrix")
 
 print("Ploting")
 plt.plot(history.history['acc'])
@@ -56,7 +62,7 @@ plt.title('model accuracy')
 plt.ylabel('accuracy')
 plt.xlabel('epoch')
 plt.legend(['train', 'test'], loc='upper left')
-plot_name = "mlp_Neuronios_{0}_qt_camadas_{1}_epocas_{2}".format(qt_neuronios, qt_camadas, n_epocas)
+plot_name = "results/mlp_Neuronios_{0}_qt_camadas_{1}_epocas_{2}".format(qt_neuronios, qt_camadas, n_epocas)
 plt.savefig(plot_name)
 plt.show()
 

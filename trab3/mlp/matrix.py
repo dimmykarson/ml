@@ -47,8 +47,3 @@ def plot_confusion_matrix(cm,
 	plt.ylabel('True label')
 	plt.xlabel('Predicted label\naccuracy={:0.4f}; misclass={:0.4f}'.format(accuracy, misclass))
 	plt.show()
-
-plot_confusion_matrix(cm           = np.array(array), 
-                      normalize    = False,
-                      target_names = ['high', 'medium', 'low'],
-                      title        = "Confusion Matrix")
