@@ -20,16 +20,15 @@ batch_size = 128
 num_classes = 12
 train_file = './mes/train.txt'
 test_file = './mes/test.txt'
-qt_cnn=2
-funcao = 'relu'
-kernel = (3, 3)
-n_epocas=20
-n_neuronios_mlp=128
-n_camadas_mlp=1
-kernel = (3, 3)
-funcao = 'relu'
+qt_cnn=5
+funcao = 'tanh'
+kernel = (4, 4)
 #MaxPooling2D, AveragePooling2D, GlobalMaxPooling2D, 
-tipo_pooling = 'GlobalMaxPooling2D'
+tipo_pooling = 'MaxPooling2D'
+n_epocas=25
+n_neuronios_mlp=128
+n_camadas_mlp=4
+
 # input image dimensions
 img_rows, img_cols = 64, 64
 
@@ -162,9 +161,7 @@ def resize_data(data, size, convert):
 #==========================================================================
 
 def run():
-
 	print("Loading database...")
-
 	# gray scale
 	#input_shape = (img_rows, img_cols, 1)
 	#(x_train, y_train), (x_test, y_test) = load_dataset(train_file, test_file, resize=True, convert=False, size=(img_rows, img_cols))
@@ -197,7 +194,18 @@ def run():
 	history = History()
 	model.add(Conv2D(32, kernel_size=(3, 3), activation=funcao, input_shape=input_shape))
 	model.add(Conv2D(64, (3, 3), activation=funcao))
-	model.add(MaxPooling2D(pool_size=(2, 2)))
+	pooling = MaxPooling2D(pool_size=(2, 2))
+	if tipo_pooling == 'AveragePooling2D':
+		pooling = AveragePooling2D(pool_size=(2, 2))
+	elif tipo_pooling == 'GlobalMaxPooling2D':
+		pooling = GlobalMaxPooling2D()
+	model.add(pooling)
+	model.add(Conv2D(128, kernel, activation=funcao))
+	model.add(pooling)
+	model.add(Conv2D(128, kernel, activation=funcao))
+	model.add(pooling)
+	model.add(Conv2D(128, kernel, activation=funcao))
+	model.add(pooling)
 	model.add(Dropout(0.25))
 	model.add(Flatten())
 	n_neuronios = n_neuronios_mlp
@@ -251,4 +259,5 @@ def run():
 
 	
 if __name__ == "__main__":
-    run()
+        print(sys.argv)
+        run()

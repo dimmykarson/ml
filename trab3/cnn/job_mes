@@ -1,3 +1,5 @@
 #PBS -l nodes=1
 cd $PBS_O_WORKDIR
-python cnnmes.py
+echo $PBS_O_WORKDIR
+python cnnmes.py 1
+echo $PBS_O_WORKDIR
