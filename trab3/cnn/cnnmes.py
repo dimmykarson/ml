@@ -21,10 +21,15 @@ num_classes = 12
 train_file = './mes/train.txt'
 test_file = './mes/test.txt'
 qt_cnn=2
+funcao = 'relu'
+kernel = (3, 3)
 n_epocas=20
 n_neuronios_mlp=128
 n_camadas_mlp=1
-
+kernel = (3, 3)
+funcao = 'relu'
+#MaxPooling2D, AveragePooling2D, GlobalMaxPooling2D, 
+tipo_pooling = 'GlobalMaxPooling2D'
 # input image dimensions
 img_rows, img_cols = 64, 64
 
