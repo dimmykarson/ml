@@ -1,0 +1,5 @@
+#PBS -l nodes=1
+cd $PBS_O_WORKDIR
+python mlpIMDB.py 50 2 25
+python mlpIMDB.py 50 5 25
+python mlpIMDB.py 50 10 25
