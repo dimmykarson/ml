@@ -1,5 +1,8 @@
 #PBS -l nodes=1
 cd $PBS_O_WORKDIR
-python mlpIMDB.py 100 2 50
-python mlpIMDB.py 100 5 50
-python mlpIMDB.py 100 10 50
+python mlpIMDB.py 100 1 10
+python mlpIMDB.py 100 1 50
+python mlpIMDB.py 100 1 100
+git add .
+git commit -m "."
+git push origin master
