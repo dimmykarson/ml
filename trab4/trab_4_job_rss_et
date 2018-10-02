@@ -1,0 +1,14 @@
+#PBS -l nodes=1
+cd $PBS_O_WORKDIR
+echo "RSS ET"
+python rss_extratrees.py 2
+python rss_extratrees.py 4
+python rss_extratrees.py 8
+python rss_extratrees.py 16
+python rss_extratrees.py 32
+python rss_extratrees.py 64
+python rss_extratrees.py 128
+python rss_extratrees.py 256
+
+
+echo "Fim"

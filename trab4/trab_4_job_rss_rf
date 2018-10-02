@@ -1,0 +1,14 @@
+#PBS -l nodes=1
+cd $PBS_O_WORKDIR
+echo "RSS RF"
+python rss_random_forest.py 2
+python rss_random_forest.py 4
+python rss_random_forest.py 8
+python rss_random_forest.py 16
+python rss_random_forest.py 32
+python rss_random_forest.py 64
+python rss_random_forest.py 128
+python rss_random_forest.py 256
+
+
+echo "Fim"

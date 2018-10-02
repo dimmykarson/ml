@@ -1,0 +1,57 @@
+
+########################################################################
+#      Date:           Tue Oct  2 11:44:41 PDT 2018
+#    Job ID:           179708.c009
+#      User:           u15089
+# Resources:           neednodes=1:ppn=2,nodes=1:ppn=2,vmem=92gb,walltime=06:00:00
+########################################################################
+
+Boosting Ada tree
+['boosting_AdaBoostClassifier.py', '2', '0.1']
+['boosting_AdaBoostClassifier.py', '2', '0.5']
+['boosting_AdaBoostClassifier.py', '2', '0.8']
+['boosting_AdaBoostClassifier.py', '2', '0.9']
+['boosting_AdaBoostClassifier.py', '2', '1']
+Estimators 2 0.270163.4 Time: 7.884871137328446 
+['boosting_AdaBoostClassifier.py', '4', '0.1']
+['boosting_AdaBoostClassifier.py', '4', '0.5']
+['boosting_AdaBoostClassifier.py', '4', '0.8']
+['boosting_AdaBoostClassifier.py', '4', '0.9']
+['boosting_AdaBoostClassifier.py', '4', '1']
+Estimators 4 0.482488.4 Time: 9.454877688549459 
+['boosting_AdaBoostClassifier.py', '8', '0.1']
+['boosting_AdaBoostClassifier.py', '8', '0.5']
+['boosting_AdaBoostClassifier.py', '8', '0.8']
+['boosting_AdaBoostClassifier.py', '8', '0.9']
+['boosting_AdaBoostClassifier.py', '8', '1']
+Estimators 8 0.714934.4 Time: 14.129916402511299 
+['boosting_AdaBoostClassifier.py', '16', '0.1']
+['boosting_AdaBoostClassifier.py', '16', '0.5']
+['boosting_AdaBoostClassifier.py', '16', '0.8']
+['boosting_AdaBoostClassifier.py', '16', '0.9']
+['boosting_AdaBoostClassifier.py', '16', '1']
+Estimators 16 0.767913.4 Time: 22.578679784201086 
+['boosting_AdaBoostClassifier.py', '32', '0.1']
+['boosting_AdaBoostClassifier.py', '32', '0.5']
+['boosting_AdaBoostClassifier.py', '32', '0.8']
+['boosting_AdaBoostClassifier.py', '32', '0.9']
+['boosting_AdaBoostClassifier.py', '32', '1']
+Estimators 32 0.773744.4 Time: 39.63812810834497 
+['boosting_AdaBoostClassifier.py', '64', '0.1']
+['boosting_AdaBoostClassifier.py', '64', '0.5']
+['boosting_AdaBoostClassifier.py', '64', '0.8']
+['boosting_AdaBoostClassifier.py', '64', '0.9']
+['boosting_AdaBoostClassifier.py', '64', '1']
+Estimators 64 0.785748.4 Time: 74.1946277404204 
+['boosting_AdaBoostClassifier.py', '128', '0.1']
+['boosting_AdaBoostClassifier.py', '128', '0.5']
+['boosting_AdaBoostClassifier.py', '128', '0.8']
+['boosting_AdaBoostClassifier.py', '128', '0.9']
+['boosting_AdaBoostClassifier.py', '128', '1']
+Estimators 128 0.821897.4 Time: 145.07370793353766 
+
+########################################################################
+# End of output for job 179708.c009
+# Date: Tue Oct  2 11:51:28 PDT 2018
+########################################################################
+

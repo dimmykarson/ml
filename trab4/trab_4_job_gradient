@@ -1,0 +1,47 @@
+#PBS -l nodes=1
+cd $PBS_O_WORKDIR
+echo "Boosting Gradient"
+python boosting_GradientBoostingClassifier.py 10 0.1
+python boosting_GradientBoostingClassifier.py 10 0.5
+python boosting_GradientBoostingClassifier.py 10 0.8
+python boosting_GradientBoostingClassifier.py 10 0.9
+python boosting_GradientBoostingClassifier.py 10 1
+
+
+python boosting_GradientBoostingClassifier.py 25 0.1
+python boosting_GradientBoostingClassifier.py 25 0.5
+python boosting_GradientBoostingClassifier.py 25 0.8
+python boosting_GradientBoostingClassifier.py 25 0.9
+python boosting_GradientBoostingClassifier.py 25 1
+
+
+python boosting_GradientBoostingClassifier.py 50 0.1
+python boosting_GradientBoostingClassifier.py 50 0.5
+python boosting_GradientBoostingClassifier.py 50 0.8
+python boosting_GradientBoostingClassifier.py 50 0.9
+python boosting_GradientBoostingClassifier.py 50 1
+
+
+python boosting_GradientBoostingClassifier.py 100 0.1
+python boosting_GradientBoostingClassifier.py 100 0.5
+python boosting_GradientBoostingClassifier.py 100 0.8
+python boosting_GradientBoostingClassifier.py 100 0.9
+python boosting_GradientBoostingClassifier.py 100 1
+
+
+
+python boosting_GradientBoostingClassifier.py 150 0.1
+python boosting_GradientBoostingClassifier.py 150 0.5
+python boosting_GradientBoostingClassifier.py 150 0.8
+python boosting_GradientBoostingClassifier.py 150 0.9
+python boosting_GradientBoostingClassifier.py 150 1
+
+
+
+python boosting_GradientBoostingClassifier.py 200 0.1
+python boosting_GradientBoostingClassifier.py 200 0.5
+python boosting_GradientBoostingClassifier.py 200 0.8
+python boosting_GradientBoostingClassifier.py 200 0.9
+python boosting_GradientBoostingClassifier.py 200 1
+
+echo "Fim"

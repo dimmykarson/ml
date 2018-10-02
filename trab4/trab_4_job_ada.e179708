@@ -1,0 +1,112 @@
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), int(sys.argv[2]))
+ValueError: invalid literal for int() with base 10: '0.1'
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), int(sys.argv[2]))
+ValueError: invalid literal for int() with base 10: '0.5'
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), int(sys.argv[2]))
+ValueError: invalid literal for int() with base 10: '0.8'
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), int(sys.argv[2]))
+ValueError: invalid literal for int() with base 10: '0.9'
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), int(sys.argv[2]))
+ValueError: invalid literal for int() with base 10: '0.1'
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), int(sys.argv[2]))
+ValueError: invalid literal for int() with base 10: '0.5'
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), int(sys.argv[2]))
+ValueError: invalid literal for int() with base 10: '0.8'
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), int(sys.argv[2]))
+ValueError: invalid literal for int() with base 10: '0.9'
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), int(sys.argv[2]))
+ValueError: invalid literal for int() with base 10: '0.1'
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), int(sys.argv[2]))
+ValueError: invalid literal for int() with base 10: '0.5'
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), int(sys.argv[2]))
+ValueError: invalid literal for int() with base 10: '0.8'
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), int(sys.argv[2]))
+ValueError: invalid literal for int() with base 10: '0.9'
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), int(sys.argv[2]))
+ValueError: invalid literal for int() with base 10: '0.1'
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), int(sys.argv[2]))
+ValueError: invalid literal for int() with base 10: '0.5'
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), int(sys.argv[2]))
+ValueError: invalid literal for int() with base 10: '0.8'
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), int(sys.argv[2]))
+ValueError: invalid literal for int() with base 10: '0.9'
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), int(sys.argv[2]))
+ValueError: invalid literal for int() with base 10: '0.1'
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), int(sys.argv[2]))
+ValueError: invalid literal for int() with base 10: '0.5'
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), int(sys.argv[2]))
+ValueError: invalid literal for int() with base 10: '0.8'
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), int(sys.argv[2]))
+ValueError: invalid literal for int() with base 10: '0.9'
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), int(sys.argv[2]))
+ValueError: invalid literal for int() with base 10: '0.1'
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), int(sys.argv[2]))
+ValueError: invalid literal for int() with base 10: '0.5'
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), int(sys.argv[2]))
+ValueError: invalid literal for int() with base 10: '0.8'
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), int(sys.argv[2]))
+ValueError: invalid literal for int() with base 10: '0.9'
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), int(sys.argv[2]))
+ValueError: invalid literal for int() with base 10: '0.1'
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), int(sys.argv[2]))
+ValueError: invalid literal for int() with base 10: '0.5'
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), int(sys.argv[2]))
+ValueError: invalid literal for int() with base 10: '0.8'
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), int(sys.argv[2]))
+ValueError: invalid literal for int() with base 10: '0.9'

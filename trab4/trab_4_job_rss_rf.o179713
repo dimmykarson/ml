@@ -1,0 +1,31 @@
+
+########################################################################
+#      Date:           Tue Oct  2 11:59:56 PDT 2018
+#    Job ID:           179713.c009
+#      User:           u15089
+# Resources:           neednodes=1:ppn=2,nodes=1:ppn=2,vmem=92gb,walltime=06:00:00
+########################################################################
+
+RSS RF
+['rss_random_forest.py', '2']
+Estimators 2 0.807506.4 Time: 8.63600165117532 
+['rss_random_forest.py', '4']
+Estimators 4 0.903182.4 Time: 11.436386191286147 
+['rss_random_forest.py', '8']
+Estimators 8 0.930584.4 Time: 17.718482611700892 
+['rss_random_forest.py', '16']
+Estimators 16 0.946015.4 Time: 30.974573561921716 
+['rss_random_forest.py', '32']
+Estimators 32 0.954183.4 Time: 56.57658886909485 
+['rss_random_forest.py', '64']
+Estimators 64 0.955939.4 Time: 108.2326674638316 
+['rss_random_forest.py', '128']
+Estimators 128 0.958088.4 Time: 211.03029470983893 
+['rss_random_forest.py', '256']
+Estimators 256 0.959230.4 Time: 415.56880675442517 
+
+########################################################################
+# End of output for job 179713.c009
+# Date: Tue Oct  2 12:14:52 PDT 2018
+########################################################################
+
