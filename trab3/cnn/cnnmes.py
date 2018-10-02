@@ -27,7 +27,7 @@ kernel = (4, 4)
 tipo_pooling = 'MaxPooling2D'
 n_epocas=25
 n_neuronios_mlp=128
-n_camadas_mlp=4
+n_camadas_mlp=1
 
 # input image dimensions
 img_rows, img_cols = 64, 64
