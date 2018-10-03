@@ -15,13 +15,6 @@ python boosting_GradientBoostingClassifier.py 4 0.9
 python boosting_GradientBoostingClassifier.py 4 1
 
 
-python boosting_GradientBoostingClassifier.py 4 0.1
-python boosting_GradientBoostingClassifier.py 4 0.5
-python boosting_GradientBoostingClassifier.py 4 0.8
-python boosting_GradientBoostingClassifier.py 4 0.9
-python boosting_GradientBoostingClassifier.py 4 1
-
-
 python boosting_GradientBoostingClassifier.py 8 0.1
 python boosting_GradientBoostingClassifier.py 8 0.5
 python boosting_GradientBoostingClassifier.py 8 0.8
