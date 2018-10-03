@@ -1,0 +1,55 @@
+
+########################################################################
+#      Date:           Tue Oct  2 16:13:33 PDT 2018
+#    Job ID:           180018.c009
+#      User:           u15089
+# Resources:           neednodes=1:ppn=2,nodes=1:ppn=2,vmem=92gb,walltime=06:00:00
+########################################################################
+
+Boosting Gradient
+['boosting_GradientBoostingClassifier.py', '10', '0.1']
+Estimators 10 0.893002.4 Time: 245.78325831331313 
+['boosting_GradientBoostingClassifier.py', '10', '0.5']
+Estimators 10 0.914811.4 Time: 243.37262589484453 
+['boosting_GradientBoostingClassifier.py', '10', '0.8']
+Estimators 10 0.893821.4 Time: 239.02676271647215 
+['boosting_GradientBoostingClassifier.py', '10', '0.9']
+Estimators 10 0.888006.4 Time: 238.78710297495127 
+['boosting_GradientBoostingClassifier.py', '10', '1']
+Estimators 10 0.891212.4 Time: 238.5986437126994 
+['boosting_GradientBoostingClassifier.py', '25', '0.1']
+Estimators 25 0.924820.4 Time: 612.2177553549409 
+['boosting_GradientBoostingClassifier.py', '25', '0.5']
+Estimators 25 0.926900.4 Time: 601.94445383735 
+['boosting_GradientBoostingClassifier.py', '25', '0.8']
+Estimators 25 0.916397.4 Time: 596.8591593112797 
+['boosting_GradientBoostingClassifier.py', '25', '0.9']
+Estimators 25 0.898066.4 Time: 591.4088470507413 
+['boosting_GradientBoostingClassifier.py', '25', '1']
+Estimators 25 0.901460.4 Time: 600.2518780212849 
+['boosting_GradientBoostingClassifier.py', '50', '0.1']
+Estimators 50 0.938206.4 Time: 1199.2954330649227 
+['boosting_GradientBoostingClassifier.py', '50', '0.5']
+Estimators 50 0.938086.4 Time: 1186.7964284848422 
+['boosting_GradientBoostingClassifier.py', '50', '0.8']
+Estimators 50 0.930328.4 Time: 1079.1846318077296 
+['boosting_GradientBoostingClassifier.py', '50', '0.9']
+Estimators 50 0.910412.4 Time: 1100.3694087993354 
+['boosting_GradientBoostingClassifier.py', '50', '1']
+Estimators 50 0.911008.4 Time: 1164.2812961954623 
+['boosting_GradientBoostingClassifier.py', '100', '0.1']
+Estimators 100 0.945793.4 Time: 2391.9005168303847 
+['boosting_GradientBoostingClassifier.py', '100', '0.5']
+Estimators 100 0.943969.4 Time: 1638.4092992022634 
+['boosting_GradientBoostingClassifier.py', '100', '0.8']
+Estimators 100 0.930413.4 Time: 1227.1637799013406 
+['boosting_GradientBoostingClassifier.py', '100', '0.9']
+Estimators 100 0.916652.4 Time: 1433.8473018296063 
+['boosting_GradientBoostingClassifier.py', '100', '1']
+Estimators 100 0.917488.4 Time: 2291.8554813303053 
+
+########################################################################
+# End of output for job 180018.c009
+# Date: Tue Oct  2 22:13:51 PDT 2018
+########################################################################
+

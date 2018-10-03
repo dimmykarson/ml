@@ -1,0 +1,136 @@
+Perceptron
+['bagging_perceptron.py', '2']
+Estimators 2 0.921427.4 Time: 8.311332432553172 
+['bagging_perceptron.py', '4']
+Estimators 4 0.934608.4 Time: 10.784418666735291 
+['bagging_perceptron.py', '8']
+Estimators 8 0.943304.4 Time: 17.26744231581688 
+['bagging_perceptron.py', '16']
+Estimators 16 0.944310.4 Time: 29.625890012830496 
+['bagging_perceptron.py', '32']
+Estimators 32 0.945657.4 Time: 53.848361894488335 
+['bagging_perceptron.py', '64']
+Estimators 64 0.945759.4 Time: 103.48346742428839 
+['bagging_perceptron.py', '128']
+Estimators 128 0.944992.4 Time: 203.92825746629387 
+['bagging_perceptron.py', '256']
+Estimators 256 0.945316.4 Time: 402.3259878586978 
+
+
+Tree
+
+
+AdaBoosting
+Boosting Ada
+['boosting_AdaBoostClassifier.py', '2', '0.1']
+Estimators 2 0.270163.4 Time: 7.8431685147807 
+['boosting_AdaBoostClassifier.py', '2', '0.5']
+Estimators 2 0.270163.4 Time: 7.077756934799254 
+['boosting_AdaBoostClassifier.py', '2', '0.8']
+Estimators 2 0.270163.4 Time: 7.735372829250991 
+['boosting_AdaBoostClassifier.py', '2', '0.9']
+Estimators 2 0.270163.4 Time: 7.1570026790723205 
+['boosting_AdaBoostClassifier.py', '2', '1']
+Estimators 2 0.270163.4 Time: 7.126792938448489 
+['boosting_AdaBoostClassifier.py', '4', '0.1']
+Estimators 4 0.413873.4 Time: 9.554797066375613 
+['boosting_AdaBoostClassifier.py', '4', '0.5']
+Estimators 4 0.405330.4 Time: 9.340802492573857 
+['boosting_AdaBoostClassifier.py', '4', '0.8']
+Estimators 4 0.483102.4 Time: 9.562558016739786 
+['boosting_AdaBoostClassifier.py', '4', '0.9']
+Estimators 4 0.482778.4 Time: 9.357662498950958 
+['boosting_AdaBoostClassifier.py', '4', '1']
+Estimators 4 0.482488.4 Time: 9.468717315234244 
+['boosting_AdaBoostClassifier.py', '8', '0.1']
+Estimators 8 0.655816.4 Time: 13.830950406379998 
+['boosting_AdaBoostClassifier.py', '8', '0.5']
+Estimators 8 0.743717.4 Time: 13.75795307662338 
+['boosting_AdaBoostClassifier.py', '8', '0.8']
+Estimators 8 0.750810.4 Time: 13.82635191641748 
+['boosting_AdaBoostClassifier.py', '8', '0.9']
+Estimators 8 0.715189.4 Time: 13.957151372916996 
+['boosting_AdaBoostClassifier.py', '8', '1']
+Estimators 8 0.714934.4 Time: 13.999579226598144 
+['boosting_AdaBoostClassifier.py', '16', '0.1']
+Estimators 16 0.697439.4 Time: 22.410656071268022 
+['boosting_AdaBoostClassifier.py', '16', '0.5']
+Estimators 16 0.812553.4 Time: 22.583842670544982 
+['boosting_AdaBoostClassifier.py', '16', '0.8']
+Estimators 16 0.807847.4 Time: 22.603940517641604 
+['boosting_AdaBoostClassifier.py', '16', '0.9']
+Estimators 16 0.800890.4 Time: 22.650795518420637 
+['boosting_AdaBoostClassifier.py', '16', '1']
+Estimators 16 0.768049.4 Time: 22.481208910234272 
+['boosting_AdaBoostClassifier.py', '32', '0.1']
+Estimators 32 0.745405.4 Time: 40.15003644581884 
+['boosting_AdaBoostClassifier.py', '32', '0.5']
+Estimators 32 0.829775.4 Time: 39.949742081575096 
+['boosting_AdaBoostClassifier.py', '32', '0.8']
+Estimators 32 0.850851.4 Time: 40.30054623633623 
+['boosting_AdaBoostClassifier.py', '32', '0.9']
+Estimators 32 0.822921.4 Time: 39.86581737361848 
+['boosting_AdaBoostClassifier.py', '32', '1']
+Estimators 32 0.773744.4 Time: 40.08965232875198 
+['boosting_AdaBoostClassifier.py', '64', '0.1']
+Estimators 64 0.798145.4 Time: 75.370928873308 
+['boosting_AdaBoostClassifier.py', '64', '0.5']
+Estimators 64 0.859973.4 Time: 75.0561426654458 
+['boosting_AdaBoostClassifier.py', '64', '0.8']
+Estimators 64 0.852130.4 Time: 75.21713091712445 
+['boosting_AdaBoostClassifier.py', '64', '0.9']
+Estimators 64 0.803022.4 Time: 75.60236866679043 
+['boosting_AdaBoostClassifier.py', '64', '1']
+Estimators 64 0.785748.4 Time: 75.39197051897645 
+['boosting_AdaBoostClassifier.py', '128', '0.1']
+Estimators 128 0.842837.4 Time: 145.52302081882954 
+['boosting_AdaBoostClassifier.py', '128', '0.5']
+Estimators 128 0.849026.4 Time: 144.7693062266335 
+['boosting_AdaBoostClassifier.py', '128', '0.8']
+Estimators 128 0.859172.4 Time: 145.5732285315171 
+['boosting_AdaBoostClassifier.py', '128', '0.9']
+Estimators 128 0.805903.4 Time: 145.55087157245725 
+['boosting_AdaBoostClassifier.py', '128', '1']
+Estimators 128 0.821897.4 Time: 145.92629970703274 
+
+
+Gradient
+
+
+RSS ET
+['rss_extratrees.py', '2']
+Estimators 2 0.933533.4 Time: 25.887715447694063 
+['rss_extratrees.py', '4']
+Estimators 4 0.935017.4 Time: 25.721804519183934 
+['rss_extratrees.py', '8']
+Estimators 8 0.930652.4 Time: 24.977186952717602 
+['rss_extratrees.py', '16']
+Estimators 16 0.933670.4 Time: 24.946619269438088 
+['rss_extratrees.py', '32']
+Estimators 32 0.935869.4 Time: 25.312072939239442 
+['rss_extratrees.py', '64']
+Estimators 64 0.938223.4 Time: 25.068164391443133 
+['rss_extratrees.py', '128']
+Estimators 128 0.933107.4 Time: 25.207922471687198 
+['rss_extratrees.py', '256']
+Estimators 256 0.932442.4 Time: 24.99920851830393 
+
+
+
+SS RF
+['rss_random_forest.py', '2']
+Estimators 2 0.807506.4 Time: 8.63600165117532 
+['rss_random_forest.py', '4']
+Estimators 4 0.903182.4 Time: 11.436386191286147 
+['rss_random_forest.py', '8']
+Estimators 8 0.930584.4 Time: 17.718482611700892 
+['rss_random_forest.py', '16']
+Estimators 16 0.946015.4 Time: 30.974573561921716 
+['rss_random_forest.py', '32']
+Estimators 32 0.954183.4 Time: 56.57658886909485 
+['rss_random_forest.py', '64']
+Estimators 64 0.955939.4 Time: 108.2326674638316 
+['rss_random_forest.py', '128']
+Estimators 128 0.958088.4 Time: 211.03029470983893 
+['rss_random_forest.py', '256']
+Estimators 256 0.959230.4 Time: 415.56880675442517 

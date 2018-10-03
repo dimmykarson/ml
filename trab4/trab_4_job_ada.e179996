@@ -1,0 +1,595 @@
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "1_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "5_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "8_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "9_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "0_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "1_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "5_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "8_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "9_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "0_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "1_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "5_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "8_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "9_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "0_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "1_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "5_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "8_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "9_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "0_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "1_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "5_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "8_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "9_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "0_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "1_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "5_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "8_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "9_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "0_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "1_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "5_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "8_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "9_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+Traceback (most recent call last):
+  File "boosting_AdaBoostClassifier.py", line 34, in <module>
+    run(int(sys.argv[1]), float(sys.argv[2]))
+  File "boosting_AdaBoostClassifier.py", line 30, in run
+    title        = "Confusion Matrix")
+  File "/home/u15089/dimmy/ml/trab4/util.py", line 54, in plot_confusion_matrix
+    plt.savefig(plot_name+"_cm")
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "0_cm" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.

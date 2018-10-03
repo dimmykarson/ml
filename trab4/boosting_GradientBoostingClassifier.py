@@ -31,7 +31,7 @@ def run(num=10, lr=1):
 	
 if __name__ == "__main__":
 	print(sys.argv)
-	run(int(sys.argv[1]), int(sys.argv[2]))
+	run(int(sys.argv[1]), float(sys.argv[2]))
 
 
 
