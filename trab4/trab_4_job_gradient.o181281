@@ -1,0 +1,81 @@
+
+########################################################################
+#      Date:           Wed Oct  3 08:19:10 PDT 2018
+#    Job ID:           181281.c009
+#      User:           u15089
+# Resources:           neednodes=1:ppn=2,nodes=1:ppn=2,vmem=92gb,walltime=06:00:00
+########################################################################
+
+Boosting Gradient
+['boosting_GradientBoostingClassifier.py', '2', '0.1']
+Estimators 2 0.845599.4 Time: 53.236605239100754 
+['boosting_GradientBoostingClassifier.py', '2', '0.5']
+Estimators 2 0.866982.4 Time: 52.8132884465158 
+['boosting_GradientBoostingClassifier.py', '2', '0.8']
+Estimators 2 0.866760.4 Time: 52.81721817795187 
+['boosting_GradientBoostingClassifier.py', '2', '0.9']
+Estimators 2 0.860553.4 Time: 53.13820778205991 
+['boosting_GradientBoostingClassifier.py', '2', '1']
+Estimators 2 0.858780.4 Time: 58.276831809431314 
+['boosting_GradientBoostingClassifier.py', '4', '0.1']
+Estimators 4 0.870136.4 Time: 99.37922123726457 
+['boosting_GradientBoostingClassifier.py', '4', '0.5']
+Estimators 4 0.894656.4 Time: 104.99571508076042 
+['boosting_GradientBoostingClassifier.py', '4', '0.8']
+Estimators 4 0.878645.4 Time: 98.8725493401289 
+['boosting_GradientBoostingClassifier.py', '4', '0.9']
+Estimators 4 0.866419.4 Time: 98.98091334477067 
+['boosting_GradientBoostingClassifier.py', '4', '1']
+Estimators 4 0.876121.4 Time: 98.76882851775736 
+['boosting_GradientBoostingClassifier.py', '8', '0.1']
+Estimators 8 0.884186.4 Time: 197.68717347364873 
+['boosting_GradientBoostingClassifier.py', '8', '0.5']
+Estimators 8 0.909951.4 Time: 193.96282550971955 
+['boosting_GradientBoostingClassifier.py', '8', '0.8']
+Estimators 8 0.891195.4 Time: 202.83468878176063 
+['boosting_GradientBoostingClassifier.py', '8', '0.9']
+Estimators 8 0.885346.4 Time: 198.9569728737697 
+['boosting_GradientBoostingClassifier.py', '8', '1']
+Estimators 8 0.895389.4 Time: 195.74914539512247 
+['boosting_GradientBoostingClassifier.py', '16', '0.1']
+Estimators 16 0.908621.4 Time: 397.96148972027004 
+['boosting_GradientBoostingClassifier.py', '16', '0.5']
+Estimators 16 0.920046.4 Time: 382.54791824612767 
+['boosting_GradientBoostingClassifier.py', '16', '0.8']
+Estimators 16 0.903727.4 Time: 379.62876639701426 
+['boosting_GradientBoostingClassifier.py', '16', '0.9']
+Estimators 16 0.894827.4 Time: 378.8563436465338 
+['boosting_GradientBoostingClassifier.py', '16', '1']
+Estimators 16 0.895031.4 Time: 376.3171277316287 
+['boosting_GradientBoostingClassifier.py', '32', '0.1']
+Estimators 32 0.930549.4 Time: 789.8409588318318 
+['boosting_GradientBoostingClassifier.py', '32', '0.5']
+Estimators 32 0.935170.4 Time: 759.8197498731315 
+['boosting_GradientBoostingClassifier.py', '32', '0.8']
+Estimators 32 0.921205.4 Time: 751.4667526073754 
+['boosting_GradientBoostingClassifier.py', '32', '0.9']
+Estimators 32 0.902551.4 Time: 778.7042161002755 
+['boosting_GradientBoostingClassifier.py', '32', '1']
+Estimators 32 0.900471.4 Time: 747.809754489921 
+['boosting_GradientBoostingClassifier.py', '64', '0.1']
+Estimators 64 0.941224.4 Time: 1544.288313866593 
+['boosting_GradientBoostingClassifier.py', '64', '0.5']
+Estimators 64 0.941513.4 Time: 1491.2963143903762 
+['boosting_GradientBoostingClassifier.py', '64', '0.8']
+Estimators 64 0.929185.4 Time: 1170.9247265504673 
+['boosting_GradientBoostingClassifier.py', '64', '0.9']
+Estimators 64 0.914709.4 Time: 1267.2612104918808 
+['boosting_GradientBoostingClassifier.py', '64', '1']
+Estimators 64 0.914078.4 Time: 1490.3830601852387 
+['boosting_GradientBoostingClassifier.py', '128', '0.1']
+Estimators 128 0.947447.4 Time: 3048.444029136561 
+['boosting_GradientBoostingClassifier.py', '128', '0.5']
+Estimators 128 0.943099.4 Time: 1681.9315085615963 
+['boosting_GradientBoostingClassifier.py', '128', '0.8']
+Estimators 128 0.930822.4 Time: 1300.305475447327 
+
+########################################################################
+# End of output for job 181281.c009
+# Date: Wed Oct  3 14:19:45 PDT 2018
+########################################################################
+
