@@ -17,14 +17,13 @@ def run(target='f3', normalizar='False'):
 	print("Avaliando {0}".format(target))
 	label_col = [target]
 	Y = data.loc[:,label_col]
-	X_train, X_test, y_train, y_test = train_test_split(X,Y,test_size=0.5, random_state=0)
-	if normalizar=='True':
+	X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.5, random_state=0)
+	if normalizar == 'True':
 		print("Normalizando...")
 		scaler = preprocessing.MinMaxScaler()
 		X_train = scaler.fit_transform(X_train)
 		X_test = scaler.fit_transform(X_test)
-
-	reg = SVR(gamma='scale', C=1.0, epsilon=0.2).fit(X_train, y_train)	
+	reg = SVR(gamma='scale', C=1.0, epsilon=0.2).fit(np.array(X_train), np.array(y_train))	
 	y_pred = reg.predict(X_test)
 	MSE = mean_squared_error(y_test.values.ravel(), y_pred)
 	print("MSE: {0}".format(MSE))
