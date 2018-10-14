@@ -1,0 +1,25 @@
+
+########################################################################
+#      Date:           Sun Oct 14 08:38:43 PDT 2018
+#    Job ID:           185680.c009
+#      User:           u15089
+# Resources:           neednodes=1:ppn=2,nodes=1:ppn=2,vmem=92gb,walltime=06:00:00
+########################################################################
+
+/home/u15089/dimmy/ml/trab5
+['regressao.py', 'f3', 'False']
+Avaliando f3
+['regressao.py', 'f3', 'True']
+Avaliando f3
+Normalizando...
+['regressao.py', 'f4', 'False']
+Avaliando f4
+['regressao.py', 'f4', 'True']
+Avaliando f4
+Normalizando...
+
+########################################################################
+# End of output for job 185680.c009
+# Date: Sun Oct 14 08:39:00 PDT 2018
+########################################################################
+

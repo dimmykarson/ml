@@ -7,7 +7,7 @@ from sklearn import preprocessing
 from sklearn.ensemble import GradientBoostingRegressor
 from util import plot_residual
 
-name="Random Forest"
+name="Gradient"
 
 def run(target='f3', normalizar='False', lr=0.1, n_estimators=100):
 	data = pandas.read_csv("usina72.csv")
@@ -28,7 +28,7 @@ def run(target='f3', normalizar='False', lr=0.1, n_estimators=100):
 	y_pred = regr.predict(X_test)
 
 	MSE = mean_squared_error(y_test.values.ravel(), y_pred)
-	plot_name = "results/{0} {1} {2} {3} {4}".format(name, target, normalizar, lr, n_estimators)
+	plot_name = "results/{0} {1} {2} {3} {4}".format(name, target, normalizar, str(lr).replace(".", ""), n_estimators)
 	MSE = mean_squared_error(y_test.values.ravel(), y_pred)
 	print(MSE)
 	file = open(plot_name+".txt", "w")

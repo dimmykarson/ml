@@ -27,7 +27,7 @@ def run(target='f3', normalizar='False'):
 		X_test = scaler.fit_transform(X_test)
 	
 	model = Sequential()
-	model.add(Dense(9, input_dim=7, kernel_initializer='normal', activation='relu'))
+	model.add(Dense(8, input_dim=7, kernel_initializer='normal', activation='relu'))
 	model.add(Dense(1, kernel_initializer='normal'))
 	model.compile(loss='mean_squared_error', optimizer='adam')
 	model.fit(X_train, y_train, epochs=100, validation_split=0.33, verbose=1)

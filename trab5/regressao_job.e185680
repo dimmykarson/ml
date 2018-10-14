@@ -1,0 +1,52 @@
+Traceback (most recent call last):
+  File "regressao.py", line 42, in <module>
+    run(sys.argv[1], sys.argv[2])
+  File "regressao.py", line 27, in run
+    reg.fit(X_train, y_train)	
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/daal4sklearn/linear.py", line 97, in fit
+    daal_fit(self, X, y)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/daal4sklearn/linear.py", line 35, in daal_fit
+    self.trainingResult_ = algorithm.compute()
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/daal/algorithms/linear_regression/training.py", line 512, in compute
+    return _training15.Batch_Float64NormEqDense_compute(self)
+SystemError: Failed to solve the system of normal equations
+
+Traceback (most recent call last):
+  File "regressao.py", line 42, in <module>
+    run(sys.argv[1], sys.argv[2])
+  File "regressao.py", line 27, in run
+    reg.fit(X_train, y_train)	
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/daal4sklearn/linear.py", line 97, in fit
+    daal_fit(self, X, y)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/daal4sklearn/linear.py", line 35, in daal_fit
+    self.trainingResult_ = algorithm.compute()
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/daal/algorithms/linear_regression/training.py", line 512, in compute
+    return _training15.Batch_Float64NormEqDense_compute(self)
+SystemError: Failed to solve the system of normal equations
+
+Traceback (most recent call last):
+  File "regressao.py", line 42, in <module>
+    run(sys.argv[1], sys.argv[2])
+  File "regressao.py", line 27, in run
+    reg.fit(X_train, y_train)	
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/daal4sklearn/linear.py", line 97, in fit
+    daal_fit(self, X, y)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/daal4sklearn/linear.py", line 35, in daal_fit
+    self.trainingResult_ = algorithm.compute()
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/daal/algorithms/linear_regression/training.py", line 512, in compute
+    return _training15.Batch_Float64NormEqDense_compute(self)
+SystemError: Failed to solve the system of normal equations
+
+Traceback (most recent call last):
+  File "regressao.py", line 42, in <module>
+    run(sys.argv[1], sys.argv[2])
+  File "regressao.py", line 27, in run
+    reg.fit(X_train, y_train)	
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/daal4sklearn/linear.py", line 97, in fit
+    daal_fit(self, X, y)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/daal4sklearn/linear.py", line 35, in daal_fit
+    self.trainingResult_ = algorithm.compute()
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/daal/algorithms/linear_regression/training.py", line 512, in compute
+    return _training15.Batch_Float64NormEqDense_compute(self)
+SystemError: Failed to solve the system of normal equations
+

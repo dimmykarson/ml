@@ -7,7 +7,7 @@ from sklearn import preprocessing
 from sklearn.linear_model import LinearRegression
 from util import plot_residual
 
-name = "Linear"
+name = "Regressao Linear"
 
 def run(target='f3', normalizar='False'):
 	data = pandas.read_csv("usina72.csv")
@@ -23,8 +23,11 @@ def run(target='f3', normalizar='False'):
 		X_train = scaler.fit_transform(X_train)
 		X_test = scaler.fit_transform(X_test)
 
-	reg = LinearRegression().fit(X_train, y_train)	
+	reg = LinearRegression()
+	reg.fit(X_train, y_train)	
 	y_pred = reg.predict(X_test)
+
+	MSE = mean_squared_error(y_test.values.ravel(), y_pred)
 	plot_name = "results/{0} {1} {2}".format(name, target, normalizar)
 	MSE = mean_squared_error(y_test.values.ravel(), y_pred)
 	print(MSE)
@@ -32,6 +35,7 @@ def run(target='f3', normalizar='False'):
 	file.write("MSE {0}\n".format(MSE))
 	file.close()
 	plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+
 
 if __name__ == "__main__":
 	print(sys.argv)
