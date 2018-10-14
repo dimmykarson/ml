@@ -1,0 +1,177 @@
+
+########################################################################
+#      Date:           Sun Oct 14 08:23:05 PDT 2018
+#    Job ID:           185669.c009
+#      User:           u15089
+# Resources:           neednodes=1:ppn=2,nodes=1:ppn=2,vmem=92gb,walltime=06:00:00
+########################################################################
+
+/home/u15089/dimmy/ml/trab5
+['gradient.py', 'f3', 'False', '0.1', '10']
+Avaliando f3
+448.28445698217377
+Plotando
+['gradient.py', 'f3', 'False', '0.5', '50']
+Avaliando f3
+248.80640607255154
+Plotando
+['gradient.py', 'f3', 'False', '1', '100']
+Avaliando f3
+280.4205690079027
+Plotando
+['gradient.py', 'f3', 'False', '0.1', '10']
+Avaliando f3
+448.28445698217377
+Plotando
+['gradient.py', 'f3', 'False', '0.5', '50']
+Avaliando f3
+248.80640607255154
+Plotando
+['gradient.py', 'f3', 'False', '1', '100']
+Avaliando f3
+280.4205690079027
+Plotando
+['gradient.py', 'f3', 'False', '0.1', '10']
+Avaliando f3
+448.28445698217377
+Plotando
+['gradient.py', 'f3', 'False', '0.5', '50']
+Avaliando f3
+248.80640607255154
+Plotando
+['gradient.py', 'f3', 'False', '1', '100']
+Avaliando f3
+280.4205690079027
+Plotando
+['gradient.py', 'f3', 'True', '0.1', '10']
+Avaliando f3
+Normalizando...
+458.52486576953305
+Plotando
+['gradient.py', 'f3', 'True', '0.5', '50']
+Avaliando f3
+Normalizando...
+252.6088078280004
+Plotando
+['gradient.py', 'f3', 'True', '1', '100']
+Avaliando f3
+Normalizando...
+282.944726244757
+Plotando
+['gradient.py', 'f3', 'True', '0.1', '10']
+Avaliando f3
+Normalizando...
+458.52486576953305
+Plotando
+['gradient.py', 'f3', 'True', '0.5', '50']
+Avaliando f3
+Normalizando...
+252.6088078280004
+Plotando
+['gradient.py', 'f3', 'True', '1', '100']
+Avaliando f3
+Normalizando...
+282.944726244757
+Plotando
+['gradient.py', 'f3', 'True', '0.1', '10']
+Avaliando f3
+Normalizando...
+458.52486576953305
+Plotando
+['gradient.py', 'f3', 'True', '0.5', '50']
+Avaliando f3
+Normalizando...
+252.6088078280004
+Plotando
+['gradient.py', 'f3', 'True', '1', '100']
+Avaliando f3
+Normalizando...
+282.944726244757
+Plotando
+['gradient.py', 'f4', 'False', '0.1', '10']
+Avaliando f4
+925.6611705129341
+Plotando
+['gradient.py', 'f4', 'False', '0.5', '50']
+Avaliando f4
+251.26996013070254
+Plotando
+['gradient.py', 'f4', 'False', '1', '100']
+Avaliando f4
+279.60139367405924
+Plotando
+['gradient.py', 'f4', 'False', '0.1', '10']
+Avaliando f4
+925.6611705129341
+Plotando
+['gradient.py', 'f4', 'False', '0.5', '50']
+Avaliando f4
+251.26996013070254
+Plotando
+['gradient.py', 'f4', 'False', '1', '100']
+Avaliando f4
+279.60139367405924
+Plotando
+['gradient.py', 'f4', 'False', '0.1', '10']
+Avaliando f4
+925.6611705129341
+Plotando
+['gradient.py', 'f4', 'False', '0.5', '50']
+Avaliando f4
+251.26996013070254
+Plotando
+['gradient.py', 'f4', 'False', '1', '100']
+Avaliando f4
+279.60139367405924
+Plotando
+['gradient.py', 'f4', 'True', '0.1', '10']
+Avaliando f4
+Normalizando...
+917.8621755053266
+Plotando
+['gradient.py', 'f4', 'True', '0.5', '50']
+Avaliando f4
+Normalizando...
+254.29575407978845
+Plotando
+['gradient.py', 'f4', 'True', '1', '100']
+Avaliando f4
+Normalizando...
+283.2719244810343
+Plotando
+['gradient.py', 'f4', 'True', '0.1', '10']
+Avaliando f4
+Normalizando...
+917.8621755053266
+Plotando
+['gradient.py', 'f4', 'True', '0.5', '50']
+Avaliando f4
+Normalizando...
+254.29575407978845
+Plotando
+['gradient.py', 'f4', 'True', '1', '100']
+Avaliando f4
+Normalizando...
+283.2719244810343
+Plotando
+['gradient.py', 'f4', 'True', '0.1', '10']
+Avaliando f4
+Normalizando...
+917.8621755053266
+Plotando
+['gradient.py', 'f4', 'True', '0.5', '50']
+Avaliando f4
+Normalizando...
+254.29575407978845
+Plotando
+['gradient.py', 'f4', 'True', '1', '100']
+Avaliando f4
+Normalizando...
+283.2719244810343
+Plotando
+
+########################################################################
+# End of output for job 185669.c009
+# Date: Sun Oct 14 08:25:08 PDT 2018
+########################################################################
+

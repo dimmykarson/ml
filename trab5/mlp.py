@@ -27,20 +27,19 @@ def run(target='f3', normalizar='False'):
 		X_test = scaler.fit_transform(X_test)
 	
 	model = Sequential()
-	model.add(Dense(9, input_dim=8, kernel_initializer='normal', activation='relu'))
+	model.add(Dense(9, input_dim=7, kernel_initializer='normal', activation='relu'))
 	model.add(Dense(1, kernel_initializer='normal'))
 	model.compile(loss='mean_squared_error', optimizer='adam')
 	model.fit(X_train, y_train, epochs=100, validation_split=0.33, verbose=1)
 	y_pred = model.predict(X_test)
-
 	MSE = mean_squared_error(y_test.values.ravel(), y_pred)
-	print("MSE: {0}".format(MSE))
-	res = y_test - y_pred
-	plot_name = "residuos_"+name+"_target_{0}_norm_{1}".format(target, normalizar)
-	file = open("results/"+plot_name+".txt", "w")
+	plot_name = "results/{0} {1} {2}".format(name, target, normalizar)
+	MSE = mean_squared_error(y_test.values.ravel(), y_pred)
+	print(MSE)
+	file = open(plot_name+".txt", "w")
 	file.write("MSE {0}\n".format(MSE))
 	file.close()
-	plot_residual(res=res, plot_name=plot_name, title='Residuos '+name, show=False)
+	plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
 
 if __name__ == "__main__":
 	print(sys.argv)

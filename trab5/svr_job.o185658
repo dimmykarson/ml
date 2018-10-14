@@ -1,0 +1,33 @@
+
+########################################################################
+#      Date:           Sun Oct 14 07:52:14 PDT 2018
+#    Job ID:           185658.c009
+#      User:           u15089
+# Resources:           neednodes=1:ppn=2,nodes=1:ppn=2,vmem=92gb,walltime=06:00:00
+########################################################################
+
+/home/u15089/dimmy/ml/trab5
+['svr.py', 'f3', 'False']
+Avaliando f3
+1626.411708551497
+Plotando
+['svr.py', 'f3', 'True']
+Avaliando f3
+Normalizando...
+972.303504948668
+Plotando
+['svr.py', 'f4', 'False']
+Avaliando f4
+5217.2397060303265
+Plotando
+['svr.py', 'f4', 'True']
+Avaliando f4
+Normalizando...
+984.4057091380428
+Plotando
+
+########################################################################
+# End of output for job 185658.c009
+# Date: Sun Oct 14 07:59:41 PDT 2018
+########################################################################
+

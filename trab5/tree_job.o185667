@@ -1,0 +1,105 @@
+
+########################################################################
+#      Date:           Sun Oct 14 08:10:52 PDT 2018
+#    Job ID:           185667.c009
+#      User:           u15089
+# Resources:           neednodes=1:ppn=2,nodes=1:ppn=2,vmem=92gb,walltime=06:00:00
+########################################################################
+
+/home/u15089/dimmy/ml/trab5
+['tree.py', 'f3', 'False', '2']
+Avaliando f3
+367.3168078660067
+Plotando
+['tree.py', 'f3', 'False', '3']
+Avaliando f3
+304.0619061405554
+Plotando
+['tree.py', 'f3', 'False', '5']
+Avaliando f3
+266.7696709061821
+Plotando
+['tree.py', 'f3', 'False', '8']
+Avaliando f3
+269.11061930810564
+Plotando
+['tree.py', 'f3', 'False', '13']
+Avaliando f3
+354.0568656703589
+Plotando
+['tree.py', 'f3', 'True', '2']
+Avaliando f3
+Normalizando...
+369.93551954061314
+Plotando
+['tree.py', 'f3', 'True', '3']
+Avaliando f3
+Normalizando...
+307.74569494829024
+Plotando
+['tree.py', 'f3', 'True', '5']
+Avaliando f3
+Normalizando...
+270.39173472515364
+Plotando
+['tree.py', 'f3', 'True', '8']
+Avaliando f3
+Normalizando...
+273.7846658835608
+Plotando
+['tree.py', 'f3', 'True', '13']
+Avaliando f3
+Normalizando...
+363.1118102097868
+Plotando
+['tree.py', 'f4', 'False', '2']
+Avaliando f4
+849.2850769837668
+Plotando
+['tree.py', 'f4', 'False', '3']
+Avaliando f4
+427.6385062365363
+Plotando
+['tree.py', 'f4', 'False', '5']
+Avaliando f4
+286.01033551146963
+Plotando
+['tree.py', 'f4', 'False', '8']
+Avaliando f4
+280.78453245302256
+Plotando
+['tree.py', 'f4', 'False', '13']
+Avaliando f4
+358.9479490822524
+Plotando
+['tree.py', 'f4', 'True', '2']
+Avaliando f4
+Normalizando...
+851.9439098881338
+Plotando
+['tree.py', 'f4', 'True', '3']
+Avaliando f4
+Normalizando...
+429.2335560969823
+Plotando
+['tree.py', 'f4', 'True', '5']
+Avaliando f4
+Normalizando...
+286.3844438322853
+Plotando
+['tree.py', 'f4', 'True', '8']
+Avaliando f4
+Normalizando...
+288.35629802772445
+Plotando
+['tree.py', 'f4', 'True', '13']
+Avaliando f4
+Normalizando...
+360.0517184927752
+Plotando
+
+########################################################################
+# End of output for job 185667.c009
+# Date: Sun Oct 14 08:11:52 PDT 2018
+########################################################################
+

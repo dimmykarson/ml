@@ -1,0 +1,684 @@
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "1 10" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "5 50" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "0 100" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "1 10" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "5 50" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "0 100" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "1 10" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "5 50" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "0 100" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "1 10" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "5 50" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "0 100" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "1 10" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "5 50" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "0 100" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "1 10" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "5 50" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "0 100" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "1 10" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "5 50" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "0 100" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "1 10" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "5 50" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "0 100" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "1 10" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "5 50" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "0 100" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "1 10" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "5 50" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "0 100" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "1 10" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "5 50" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "0 100" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "1 10" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "5 50" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.
+/glob/intel-python/python3/lib/python3.6/site-packages/sklearn/utils/validation.py:578: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Traceback (most recent call last):
+  File "gradient.py", line 41, in <module>
+    run(sys.argv[1], sys.argv[2], float(sys.argv[3]), int(sys.argv[4]))
+  File "gradient.py", line 37, in run
+    plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
+  File "/home/u15089/dimmy/ml/trab5/util.py", line 14, in plot_residual
+    plt.savefig(plot_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/pyplot.py", line 701, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/figure.py", line 1834, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2170, in print_figure
+    canvas = self._get_output_canvas(format)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2113, in _get_output_canvas
+    '%s.' % (format, ', '.join(formats)))
+ValueError: Format "0 100" is not supported.
+Supported formats: eps, jpeg, jpg, pdf, pgf, png, ps, raw, rgba, svg, svgz, tif, tiff.

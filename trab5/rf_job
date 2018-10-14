@@ -1,0 +1,43 @@
+#PBS -l nodes=1
+cd $PBS_O_WORKDIR
+echo $PBS_O_WORKDIR
+python rf.py f3 False 2 10
+python rf.py f3 False 2 50
+python rf.py f3 False 2 100
+python rf.py f3 False 3 10
+python rf.py f3 False 3 50
+python rf.py f3 False 3 100
+python rf.py f3 False 5 10
+python rf.py f3 False 5 50
+python rf.py f3 False 5 100
+python rf.py f3 True 2 10
+python rf.py f3 True 2 50
+python rf.py f3 True 2 100
+python rf.py f3 True 3 10
+python rf.py f3 True 3 50
+python rf.py f3 True 3 100
+python rf.py f3 True 5 10
+python rf.py f3 True 5 50
+python rf.py f3 True 5 100
+python rf.py f4 False 2 10
+python rf.py f4 False 2 50
+python rf.py f4 False 2 100
+python rf.py f4 False 3 10
+python rf.py f4 False 3 50
+python rf.py f4 False 3 100
+python rf.py f4 False 5 10
+python rf.py f4 False 5 50
+python rf.py f4 False 5 100
+python rf.py f4 True 2 10
+python rf.py f4 True 2 50
+python rf.py f4 True 2 100
+python rf.py f4 True 3 10
+python rf.py f4 True 3 50
+python rf.py f4 True 3 100
+python rf.py f4 True 5 10
+python rf.py f4 True 5 50
+python rf.py f4 True 5 100
+
+
+
+echo "Fim"

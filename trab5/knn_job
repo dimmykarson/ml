@@ -1,0 +1,24 @@
+#PBS -l nodes=1
+cd $PBS_O_WORKDIR
+echo $PBS_O_WORKDIR
+python knn.py f3 False 2
+python knn.py f3 False 3
+python knn.py f3 False 5
+python knn.py f3 False 8
+python knn.py f3 False 13
+python knn.py f3 True 2
+python knn.py f3 True 3
+python knn.py f3 True 5
+python knn.py f3 True 8
+python knn.py f3 True 13
+python knn.py f4 False 2
+python knn.py f4 False 3
+python knn.py f4 False 5
+python knn.py f4 False 8
+python knn.py f4 False 13
+python knn.py f4 True 2
+python knn.py f4 True 3
+python knn.py f4 True 5
+python knn.py f4 True 8
+python knn.py f4 True 13
+echo "Fim"

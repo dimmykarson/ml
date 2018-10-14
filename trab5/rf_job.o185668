@@ -1,0 +1,177 @@
+
+########################################################################
+#      Date:           Sun Oct 14 08:14:17 PDT 2018
+#    Job ID:           185668.c009
+#      User:           u15089
+# Resources:           neednodes=1:ppn=2,nodes=1:ppn=2,vmem=92gb,walltime=06:00:00
+########################################################################
+
+/home/u15089/dimmy/ml/trab5
+['rf.py', 'f3', 'False', '2', '10']
+Avaliando f3
+354.6342994202741
+Plotando
+['rf.py', 'f3', 'False', '2', '50']
+Avaliando f3
+352.2878475531413
+Plotando
+['rf.py', 'f3', 'False', '2', '100']
+Avaliando f3
+352.63399582810587
+Plotando
+['rf.py', 'f3', 'False', '3', '10']
+Avaliando f3
+294.2392345216111
+Plotando
+['rf.py', 'f3', 'False', '3', '50']
+Avaliando f3
+292.61592834918076
+Plotando
+['rf.py', 'f3', 'False', '3', '100']
+Avaliando f3
+292.782459236077
+Plotando
+['rf.py', 'f3', 'False', '5', '10']
+Avaliando f3
+259.8757451348369
+Plotando
+['rf.py', 'f3', 'False', '5', '50']
+Avaliando f3
+258.5758792728048
+Plotando
+['rf.py', 'f3', 'False', '5', '100']
+Avaliando f3
+258.18628739715456
+Plotando
+['rf.py', 'f3', 'True', '2', '10']
+Avaliando f3
+Normalizando...
+355.7072054626083
+Plotando
+['rf.py', 'f3', 'True', '2', '50']
+Avaliando f3
+Normalizando...
+353.1263305980466
+Plotando
+['rf.py', 'f3', 'True', '2', '100']
+Avaliando f3
+Normalizando...
+353.5103645211785
+Plotando
+['rf.py', 'f3', 'True', '3', '10']
+Avaliando f3
+Normalizando...
+297.6666126860365
+Plotando
+['rf.py', 'f3', 'True', '3', '50']
+Avaliando f3
+Normalizando...
+295.616294085555
+Plotando
+['rf.py', 'f3', 'True', '3', '100']
+Avaliando f3
+Normalizando...
+295.82659476960316
+Plotando
+['rf.py', 'f3', 'True', '5', '10']
+Avaliando f3
+Normalizando...
+263.13099979614486
+Plotando
+['rf.py', 'f3', 'True', '5', '50']
+Avaliando f3
+Normalizando...
+261.7054509264186
+Plotando
+['rf.py', 'f3', 'True', '5', '100']
+Avaliando f3
+Normalizando...
+261.2414278674899
+Plotando
+['rf.py', 'f4', 'False', '2', '10']
+Avaliando f4
+638.4376924047593
+Plotando
+['rf.py', 'f4', 'False', '2', '50']
+Avaliando f4
+630.8756076326346
+Plotando
+['rf.py', 'f4', 'False', '2', '100']
+Avaliando f4
+623.6823596320675
+Plotando
+['rf.py', 'f4', 'False', '3', '10']
+Avaliando f4
+340.4093087635854
+Plotando
+['rf.py', 'f4', 'False', '3', '50']
+Avaliando f4
+335.79466214769775
+Plotando
+['rf.py', 'f4', 'False', '3', '100']
+Avaliando f4
+334.23778164226394
+Plotando
+['rf.py', 'f4', 'False', '5', '10']
+Avaliando f4
+266.277126964877
+Plotando
+['rf.py', 'f4', 'False', '5', '50']
+Avaliando f4
+263.5050754236387
+Plotando
+['rf.py', 'f4', 'False', '5', '100']
+Avaliando f4
+263.46476515144946
+Plotando
+['rf.py', 'f4', 'True', '2', '10']
+Avaliando f4
+Normalizando...
+637.4450149092334
+Plotando
+['rf.py', 'f4', 'True', '2', '50']
+Avaliando f4
+Normalizando...
+629.8851950661897
+Plotando
+['rf.py', 'f4', 'True', '2', '100']
+Avaliando f4
+Normalizando...
+622.3175953445444
+Plotando
+['rf.py', 'f4', 'True', '3', '10']
+Avaliando f4
+Normalizando...
+339.66917095529107
+Plotando
+['rf.py', 'f4', 'True', '3', '50']
+Avaliando f4
+Normalizando...
+335.3997207200734
+Plotando
+['rf.py', 'f4', 'True', '3', '100']
+Avaliando f4
+Normalizando...
+333.7668950124182
+Plotando
+['rf.py', 'f4', 'True', '5', '10']
+Avaliando f4
+Normalizando...
+266.3389796327498
+Plotando
+['rf.py', 'f4', 'True', '5', '50']
+Avaliando f4
+Normalizando...
+263.28241337876756
+Plotando
+['rf.py', 'f4', 'True', '5', '100']
+Avaliando f4
+Normalizando...
+263.33516636885895
+Plotando
+
+########################################################################
+# End of output for job 185668.c009
+# Date: Sun Oct 14 08:17:00 PDT 2018
+########################################################################
+

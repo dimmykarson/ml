@@ -1,0 +1,8 @@
+#PBS -l nodes=1
+cd $PBS_O_WORKDIR
+echo $PBS_O_WORKDIR
+python mlp.py f3 False
+python mlp.py f3 True
+python mlp.py f4 False
+python mlp.py f4 True
+echo "Fim"

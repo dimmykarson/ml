@@ -1,0 +1,43 @@
+#PBS -l nodes=1
+cd $PBS_O_WORKDIR
+echo $PBS_O_WORKDIR
+python gradient.py f3 False 0.1 10
+python gradient.py f3 False 0.5 50
+python gradient.py f3 False 1 100
+python gradient.py f3 False 0.1 10
+python gradient.py f3 False 0.5 50
+python gradient.py f3 False 1 100
+python gradient.py f3 False 0.1 10
+python gradient.py f3 False 0.5 50
+python gradient.py f3 False 1 100
+python gradient.py f3 True 0.1 10
+python gradient.py f3 True 0.5 50
+python gradient.py f3 True 1 100
+python gradient.py f3 True 0.1 10
+python gradient.py f3 True 0.5 50
+python gradient.py f3 True 1 100
+python gradient.py f3 True 0.1 10
+python gradient.py f3 True 0.5 50
+python gradient.py f3 True 1 100
+python gradient.py f4 False 0.1 10
+python gradient.py f4 False 0.5 50
+python gradient.py f4 False 1 100
+python gradient.py f4 False 0.1 10
+python gradient.py f4 False 0.5 50
+python gradient.py f4 False 1 100
+python gradient.py f4 False 0.1 10
+python gradient.py f4 False 0.5 50
+python gradient.py f4 False 1 100
+python gradient.py f4 True 0.1 10
+python gradient.py f4 True 0.5 50
+python gradient.py f4 True 1 100
+python gradient.py f4 True 0.1 10
+python gradient.py f4 True 0.5 50
+python gradient.py f4 True 1 100
+python gradient.py f4 True 0.1 10
+python gradient.py f4 True 0.5 50
+python gradient.py f4 True 1 100
+
+
+
+echo "Fim"
