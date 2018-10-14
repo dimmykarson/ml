@@ -1,0 +1,62 @@
+/glob/intel-python/python3/lib/python3.6/site-packages/h5py/__init__.py:34: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+Traceback (most recent call last):
+  File "mlpIMDB.py", line 116, in <module>
+    run(int(sys.argv[1]), int(sys.argv[2]), int(sys.argv[3]))
+  File "mlpIMDB.py", line 83, in run
+    model.add(Dense(n_neuronios, activation='relu', input_dim=100))
+  File "/home/u15089/.local/lib/python3.6/site-packages/keras/engine/sequential.py", line 185, in add
+    output_tensor = layer(self.outputs[0])
+  File "/home/u15089/.local/lib/python3.6/site-packages/keras/engine/base_layer.py", line 431, in __call__
+    self.build(unpack_singleton(input_shapes))
+  File "/home/u15089/.local/lib/python3.6/site-packages/keras/layers/core.py", line 861, in build
+    constraint=self.kernel_constraint)
+  File "/home/u15089/.local/lib/python3.6/site-packages/keras/legacy/interfaces.py", line 91, in wrapper
+    return func(*args, **kwargs)
+  File "/home/u15089/.local/lib/python3.6/site-packages/keras/engine/base_layer.py", line 249, in add_weight
+    weight = K.variable(initializer(shape),
+  File "/home/u15089/.local/lib/python3.6/site-packages/keras/initializers.py", line 218, in __call__
+    dtype=dtype, seed=self.seed)
+  File "/home/u15089/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py", line 4049, in random_uniform
+    dtype=dtype, seed=seed)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/tensorflow/python/ops/random_ops.py", line 242, in random_uniform
+    rnd = gen_random_ops.random_uniform(shape, dtype, seed=seed1, seed2=seed2)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/tensorflow/python/ops/gen_random_ops.py", line 732, in random_uniform
+    name=name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 609, in _apply_op_helper
+    param_name=input_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 60, in _SatisfiesTypeConstraint
+    ", ".join(dtypes.as_dtype(x).name for x in allowed_list)))
+TypeError: Value passed to parameter 'shape' has DataType float32 not in list of allowed values: int32, int64
+/glob/intel-python/python3/lib/python3.6/site-packages/h5py/__init__.py:34: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+Traceback (most recent call last):
+  File "mlpIMDB.py", line 116, in <module>
+    run(int(sys.argv[1]), int(sys.argv[2]), int(sys.argv[3]))
+  File "mlpIMDB.py", line 83, in run
+    model.add(Dense(n_neuronios, activation='relu', input_dim=100))
+  File "/home/u15089/.local/lib/python3.6/site-packages/keras/engine/sequential.py", line 185, in add
+    output_tensor = layer(self.outputs[0])
+  File "/home/u15089/.local/lib/python3.6/site-packages/keras/engine/base_layer.py", line 431, in __call__
+    self.build(unpack_singleton(input_shapes))
+  File "/home/u15089/.local/lib/python3.6/site-packages/keras/layers/core.py", line 861, in build
+    constraint=self.kernel_constraint)
+  File "/home/u15089/.local/lib/python3.6/site-packages/keras/legacy/interfaces.py", line 91, in wrapper
+    return func(*args, **kwargs)
+  File "/home/u15089/.local/lib/python3.6/site-packages/keras/engine/base_layer.py", line 249, in add_weight
+    weight = K.variable(initializer(shape),
+  File "/home/u15089/.local/lib/python3.6/site-packages/keras/initializers.py", line 218, in __call__
+    dtype=dtype, seed=self.seed)
+  File "/home/u15089/.local/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py", line 4049, in random_uniform
+    dtype=dtype, seed=seed)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/tensorflow/python/ops/random_ops.py", line 242, in random_uniform
+    rnd = gen_random_ops.random_uniform(shape, dtype, seed=seed1, seed2=seed2)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/tensorflow/python/ops/gen_random_ops.py", line 732, in random_uniform
+    name=name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 609, in _apply_op_helper
+    param_name=input_name)
+  File "/glob/intel-python/python3/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 60, in _SatisfiesTypeConstraint
+    ", ".join(dtypes.as_dtype(x).name for x in allowed_list)))
+TypeError: Value passed to parameter 'shape' has DataType float32 not in list of allowed values: int32, int64

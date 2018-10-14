@@ -1,0 +1,85 @@
+
+########################################################################
+#      Date:           Tue Oct  2 13:55:38 PDT 2018
+#    Job ID:           179996.c009
+#      User:           u15089
+# Resources:           neednodes=1:ppn=2,nodes=1:ppn=2,vmem=92gb,walltime=06:00:00
+########################################################################
+
+Boosting Ada tree
+['boosting_AdaBoostClassifier.py', '2', '0.1']
+Estimators 2 0.270163.4 Time: 7.8431685147807 
+['boosting_AdaBoostClassifier.py', '2', '0.5']
+Estimators 2 0.270163.4 Time: 7.077756934799254 
+['boosting_AdaBoostClassifier.py', '2', '0.8']
+Estimators 2 0.270163.4 Time: 7.735372829250991 
+['boosting_AdaBoostClassifier.py', '2', '0.9']
+Estimators 2 0.270163.4 Time: 7.1570026790723205 
+['boosting_AdaBoostClassifier.py', '2', '1']
+Estimators 2 0.270163.4 Time: 7.126792938448489 
+['boosting_AdaBoostClassifier.py', '4', '0.1']
+Estimators 4 0.413873.4 Time: 9.554797066375613 
+['boosting_AdaBoostClassifier.py', '4', '0.5']
+Estimators 4 0.405330.4 Time: 9.340802492573857 
+['boosting_AdaBoostClassifier.py', '4', '0.8']
+Estimators 4 0.483102.4 Time: 9.562558016739786 
+['boosting_AdaBoostClassifier.py', '4', '0.9']
+Estimators 4 0.482778.4 Time: 9.357662498950958 
+['boosting_AdaBoostClassifier.py', '4', '1']
+Estimators 4 0.482488.4 Time: 9.468717315234244 
+['boosting_AdaBoostClassifier.py', '8', '0.1']
+Estimators 8 0.655816.4 Time: 13.830950406379998 
+['boosting_AdaBoostClassifier.py', '8', '0.5']
+Estimators 8 0.743717.4 Time: 13.75795307662338 
+['boosting_AdaBoostClassifier.py', '8', '0.8']
+Estimators 8 0.750810.4 Time: 13.82635191641748 
+['boosting_AdaBoostClassifier.py', '8', '0.9']
+Estimators 8 0.715189.4 Time: 13.957151372916996 
+['boosting_AdaBoostClassifier.py', '8', '1']
+Estimators 8 0.714934.4 Time: 13.999579226598144 
+['boosting_AdaBoostClassifier.py', '16', '0.1']
+Estimators 16 0.697439.4 Time: 22.410656071268022 
+['boosting_AdaBoostClassifier.py', '16', '0.5']
+Estimators 16 0.812553.4 Time: 22.583842670544982 
+['boosting_AdaBoostClassifier.py', '16', '0.8']
+Estimators 16 0.807847.4 Time: 22.603940517641604 
+['boosting_AdaBoostClassifier.py', '16', '0.9']
+Estimators 16 0.800890.4 Time: 22.650795518420637 
+['boosting_AdaBoostClassifier.py', '16', '1']
+Estimators 16 0.768049.4 Time: 22.481208910234272 
+['boosting_AdaBoostClassifier.py', '32', '0.1']
+Estimators 32 0.745405.4 Time: 40.15003644581884 
+['boosting_AdaBoostClassifier.py', '32', '0.5']
+Estimators 32 0.829775.4 Time: 39.949742081575096 
+['boosting_AdaBoostClassifier.py', '32', '0.8']
+Estimators 32 0.850851.4 Time: 40.30054623633623 
+['boosting_AdaBoostClassifier.py', '32', '0.9']
+Estimators 32 0.822921.4 Time: 39.86581737361848 
+['boosting_AdaBoostClassifier.py', '32', '1']
+Estimators 32 0.773744.4 Time: 40.08965232875198 
+['boosting_AdaBoostClassifier.py', '64', '0.1']
+Estimators 64 0.798145.4 Time: 75.370928873308 
+['boosting_AdaBoostClassifier.py', '64', '0.5']
+Estimators 64 0.859973.4 Time: 75.0561426654458 
+['boosting_AdaBoostClassifier.py', '64', '0.8']
+Estimators 64 0.852130.4 Time: 75.21713091712445 
+['boosting_AdaBoostClassifier.py', '64', '0.9']
+Estimators 64 0.803022.4 Time: 75.60236866679043 
+['boosting_AdaBoostClassifier.py', '64', '1']
+Estimators 64 0.785748.4 Time: 75.39197051897645 
+['boosting_AdaBoostClassifier.py', '128', '0.1']
+Estimators 128 0.842837.4 Time: 145.52302081882954 
+['boosting_AdaBoostClassifier.py', '128', '0.5']
+Estimators 128 0.849026.4 Time: 144.7693062266335 
+['boosting_AdaBoostClassifier.py', '128', '0.8']
+Estimators 128 0.859172.4 Time: 145.5732285315171 
+['boosting_AdaBoostClassifier.py', '128', '0.9']
+Estimators 128 0.805903.4 Time: 145.55087157245725 
+['boosting_AdaBoostClassifier.py', '128', '1']
+Estimators 128 0.821897.4 Time: 145.92629970703274 
+
+########################################################################
+# End of output for job 179996.c009
+# Date: Tue Oct  2 14:23:36 PDT 2018
+########################################################################
+

@@ -1,0 +1,31 @@
+
+########################################################################
+#      Date:           Tue Oct  2 13:38:56 PDT 2018
+#    Job ID:           179993.c009
+#      User:           u15089
+# Resources:           neednodes=1:ppn=2,nodes=1:ppn=2,vmem=92gb,walltime=06:00:00
+########################################################################
+
+Bagging tree
+['bagging_tree.py', '2']
+Estimators 2 0.860229.4 Time: 33.617123891599476 
+['bagging_tree.py', '4']
+Estimators 4 0.894980.4 Time: 59.89761344343424 
+['bagging_tree.py', '8']
+Estimators 8 0.908365.4 Time: 115.22258401103318 
+['bagging_tree.py', '16']
+Estimators 16 0.916397.4 Time: 228.75039475411177 
+['bagging_tree.py', '32']
+Estimators 32 0.920694.4 Time: 447.1759624024853 
+['bagging_tree.py', '64']
+Estimators 64 0.923814.4 Time: 890.7583016995341 
+['bagging_tree.py', '128']
+Estimators 128 0.925622.4 Time: 1779.0250129578635 
+['bagging_tree.py', '256']
+Estimators 256 0.926099.4 Time: 3539.5602242257446 
+
+########################################################################
+# End of output for job 179993.c009
+# Date: Tue Oct  2 15:37:51 PDT 2018
+########################################################################
+

@@ -1,0 +1,31 @@
+
+########################################################################
+#      Date:           Tue Oct  2 11:30:35 PDT 2018
+#    Job ID:           179703.c009
+#      User:           u15089
+# Resources:           neednodes=1:ppn=2,nodes=1:ppn=2,vmem=92gb,walltime=06:00:00
+########################################################################
+
+/home/u15089/dimmy/ml/trab4
+['bagging_perceptron.py', '2']
+Estimators 2 0.921427.4 Time: 8.311332432553172 
+['bagging_perceptron.py', '4']
+Estimators 4 0.934608.4 Time: 10.784418666735291 
+['bagging_perceptron.py', '8']
+Estimators 8 0.943304.4 Time: 17.26744231581688 
+['bagging_perceptron.py', '16']
+Estimators 16 0.944310.4 Time: 29.625890012830496 
+['bagging_perceptron.py', '32']
+Estimators 32 0.945657.4 Time: 53.848361894488335 
+['bagging_perceptron.py', '64']
+Estimators 64 0.945759.4 Time: 103.48346742428839 
+['bagging_perceptron.py', '128']
+Estimators 128 0.944992.4 Time: 203.92825746629387 
+['bagging_perceptron.py', '256']
+Estimators 256 0.945316.4 Time: 402.3259878586978 
+
+########################################################################
+# End of output for job 179703.c009
+# Date: Tue Oct  2 11:44:57 PDT 2018
+########################################################################
+

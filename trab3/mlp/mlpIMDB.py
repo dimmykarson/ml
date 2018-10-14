@@ -82,6 +82,7 @@ def run(qt_neuronios = 50, qt_camadas = 1, n_epocas = 20):
 	for i in range(0, qt_camadas):
 		model.add(Dense(n_neuronios, activation='relu', input_dim=100))
 		n_neuronios=n_neuronios/2
+		n_neuronios=int(n_neuronios)
 	model.add(Dense(2, activation='softmax'))
 
 	model.compile(loss='binary_crossentropy',
