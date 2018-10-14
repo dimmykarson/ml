@@ -11,7 +11,7 @@ from util import plot_residual
 
 def run(target='f3', normalizar='False'):
 	data = pandas.read_csv("usina72.csv")
-	feature_cols = ['f5', 'f6', 'f7', 'f8', 'f9', 'f10', 'f11', 'f12']
+	feature_cols = ['f5', 'f6', 'f7', 'f9', 'f10', 'f11', 'f12']
 	X = data.loc[:,feature_cols]
 	print("Avaliando {0}".format(target))
 	label_col = [target]
@@ -29,8 +29,10 @@ def run(target='f3', normalizar='False'):
 	print("MSE: {0}".format(MSE))
 	res = y_test - y_pred
 	plot_name = "residuos_regressao_linear_taregt_{0}_norm_{1}".format(target, normalizar)
-	plot_residual(res=res, plot_name=plot_name, title='Resíduos Regressão Linear', show=False)
-
+	file = open("results/"+plot_name+".txt", "w")
+	file.write("MSE {0}\n".format(MSE))
+	file.close()
+	plot_residual(res=res, plot_name=plot_name, title='Residuos Regressao Linear', show=False)
 
 if __name__ == "__main__":
 	print(sys.argv)
