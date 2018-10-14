@@ -7,7 +7,6 @@ def plot_residual(
 	res, plot_name='Residuos', color='blue', title='Residuos', show=False):
 	print("Plotando")
 	plt.close("all")
-	plt.figure(figsize=(8, 6))
 	plt.hist(res)
 	plt.title(title)
 	plt.savefig(plot_name)
