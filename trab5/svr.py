@@ -23,16 +23,15 @@ def run(target='f3', normalizar='False'):
 		scaler = preprocessing.MinMaxScaler()
 		X_train = scaler.fit_transform(X_train)
 		X_test = scaler.fit_transform(X_test)
-	reg = SVR(C=1.0, epsilon=0.2).fit(X_train, y_train)	
+	reg = SVR(C=128, epsilon=0.2).fit(X_train, y_train)
 	y_pred = reg.predict(X_test)
+	plot_name = "results/{0} {1} {2}".format(name, target, normalizar)
 	MSE = mean_squared_error(y_test.values.ravel(), y_pred)
-	print("MSE: {0}".format(MSE))
-	res = y_test - y_pred
-	plot_name = "residuos_"+name+"_target_{0}_norm_{1}".format(target, normalizar)
-	file = open("results/"+plot_name+".txt", "w")
+	print(MSE)
+	file = open(plot_name+".txt", "w")
 	file.write("MSE {0}\n".format(MSE))
 	file.close()
-	plot_residual(res=res, plot_name=plot_name, title='Residuos '+name, show=False)
+	plot_residual(res=y_test.values.ravel()-y_pred, plot_name=plot_name, title="Residuos "+name)
 
 if __name__ == "__main__":
 	print(sys.argv)
