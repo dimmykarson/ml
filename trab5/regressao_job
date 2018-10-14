@@ -1,0 +1,8 @@
+#PBS -l nodes=1
+cd $PBS_O_WORKDIR
+echo $PBS_O_WORKDIR
+python regressao.py f3 False
+python regressao.py f3 True
+python regressao.py f4 False
+python regressao.py f4 True
+echo "Fim"

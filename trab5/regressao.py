@@ -28,7 +28,8 @@ def run(target='f3', normalizar='False'):
 	MSE = mean_squared_error(y_test.values.ravel(), y_pred)
 	print("MSE: {0}".format(MSE))
 	res = y_test - y_pred
-	plot_residual(res=res, plot_name='residuos_regressao_linear', title='Resíduos Regressão Linear')
+	plot_name = "residuos_regressao_linear_taregt_{0}_norm_{1}".format(target, normalizar)
+	plot_residual(res=res, plot_name=plot_name, title='Resíduos Regressão Linear', show=False)
 
 
 if __name__ == "__main__":
